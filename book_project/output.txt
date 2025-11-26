@@ -1,0 +1,9 @@
+**Recommended:** Option A - A glossary would significantly enhance the educational value for the target audience (9-17) by providing clear definitions of AI terms introduced in the book.
+
+| Option | Description |
+|--------|-------------|
+| A | Yes, a dedicated glossary section is required. |
+| B | No, a glossary is not needed. |
+| Short | Provide a different short answer (<=5 words) |
+
+Does the book require a dedicated glossary section to define AI terms for young readers? You can reply with the option letter (e.g., "A"), accept the recommendation by saying "yes" or "recommended", or provide your own short answer.
