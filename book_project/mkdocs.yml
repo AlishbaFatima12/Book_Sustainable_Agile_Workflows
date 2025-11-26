@@ -1,0 +1,35 @@
+site_name: The Secret Life of AI Creatures
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  icon:
+    logo: material/book-open-page-variant
+nav:
+  - Home: index.md
+  - Chapter 1: The Whispering Woods of Data: chapter1.md
+  - Chapter 2: The River of Algorithms: chapter2.md
+  - Chapter 3: The Cave of Questions: chapter3.md
+  - Chapter 4: The Forest of Decisions: chapter4.md
+  - Chapter 5: The Symphony of Creation: chapter5.md
