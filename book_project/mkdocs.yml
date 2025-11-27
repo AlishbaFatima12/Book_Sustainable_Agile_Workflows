@@ -1,15 +1,20 @@
-site_name: The Secret Life of AI Creatures
+site_name: Sustainable Agile Workflows in the Era of Generative AI
 theme:
   name: material
+  logo: assets/logo.png
   palette:
     # Palette toggle for light mode
     - scheme: default
+      primary: blue
+      accent: green
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
+      primary: blue
+      accent: green
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -26,10 +31,22 @@ theme:
   language: en
   icon:
     logo: material/book-open-page-variant
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AlishbaFatima12/Book_Sustainable_Agile_Workflows
+copyright: "Copyright &copy; 2025 SYEDA ALISHBA FATIMA"
 nav:
   - Home: index.md
-  - "Chapter 1: The Whispering Woods of Data": chapter1.md
-  - "Chapter 2: The River of Algorithms": chapter2.md
-  - "Chapter 3: The Cave of Questions": chapter3.md
-  - "Chapter 4: The Forest of Decisions": chapter4.md
-  - "Chapter 5: The Symphony of Creation": chapter5.md
+  - "Introduction": "01-intro.md"
+  - "Foundations": "02-foundations.md"
+  - "Human-Sustainable Agile": "03-human-sustainable-agile.md"
+  - "GenAI Agile Tools": "04-genai-agile-tools.md"
+  - "Participatory Action Research": "05-participatory-action-research.md"
+  - "AI-Enhanced Scrum": "06-ai-enhanced-scrum.md"
+  - "Human Wellbeing in AI Workflows": "07-human-wellbeing-in-ai-workflows.md"
+  - "Responsible AI in Agile": "08-responsible-ai-in-agile.md"
+  - "Agentic DevOps": "09-agentic-devops.md"
+  - "Future of Workflows": "10-future-of-workflows.md"
+  - "Case Studies": "11-case-studies.md"
+  - "Conclusion": "12-conclusion.md"
