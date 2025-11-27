@@ -235,7 +235,11 @@ if [ ${#BRANCH_NAME} -gt $MAX_BRANCH_LENGTH ]; then
 fi
 
 if [ "$HAS_GIT" = true ]; then
-    git checkout -b "$BRANCH_NAME"
+    if ! git rev-parse --verify "$BRANCH_NAME" >/dev/null 2>&1; then
+        git checkout -b "$BRANCH_NAME"
+    else
+        git checkout "$BRANCH_NAME"
+    fi
 else
     >&2 echo "[specify] Warning: Git repository not detected; skipped branch creation for $BRANCH_NAME"
 fi
